@@ -14,7 +14,7 @@ services:
       - mern-network
 
   backend:
-    build: ./Wrokflow-backend
+    build: ./Workflow-backend
     container_name: node-api
     ports:
       - "5000:5000"
